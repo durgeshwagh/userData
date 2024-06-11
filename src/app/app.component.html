@@ -1,0 +1,9 @@
+<div class="header shadow  d-flex justify-content-between" style="height: 50px;">
+    <div   > <b class="text-primary h4"> Product List</b></div>
+ <div>   <button class="btn btn-primary  btn-sm mx-2" *ngIf="isListOn" (click)="gotoList()"> Product list</button>
+    <button class="btn btn-primary  btn-sm mx-2" *ngIf="isAddproductOn" (click)="addProduct()"> Add Product</button>
+</div>
+
+</div>
+
+<router-outlet>   </router-outlet>
